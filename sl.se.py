@@ -1,11 +1,15 @@
-def fares(age, student=False, senior=False):
-    print age,student,senior
+def fares (age,student=false,senior=false):
+    print age, student,senior if age <=18:
+    return 'halv' elif age >=66:
+    return 'halv'
+else:
     return 'hel'
 
 
 
 
 
-fares(10)
-fares(65,senior=True)
-fares(25,student=True)
+    print 'barn 10',fares(10)
+    print 'pension 66',fares(66)
+    print 'student 24',fares(24,student=true)
+    print 'vuxen 46',fares(46)
